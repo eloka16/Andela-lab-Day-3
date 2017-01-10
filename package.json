@@ -1,0 +1,19 @@
+{
+  "name": "programminglogic",
+  "version": "1.0.0",
+  "description": "Binary Searc and Missing Number lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eloka16/Andela-lab-Day-3.git"
+  },
+  "author": "Henry Chukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eloka16/Andela-lab-Day-3/issues"
+  },
+  "homepage": "https://github.com/eloka16/Andela-lab-Day-3#readme"
+}
