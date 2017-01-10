@@ -3,6 +3,18 @@
 
 module.exports = {
 
+  findMissing: function(arr1,arr2) {
+    var ans1 = 0
+    var ans2 = 0
+    for (var i = 0; i<arr1.length; i++) {
+      ans1 += arr1[i]
+    }
+    for (var j = 0; j < arr2.length; j++) {
+      ans2 += arr2[j]
+    }
+    return ans2 - ans1
+  }
+
 }
 
 Array.prototype.toTwenty = function(){
