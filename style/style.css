@@ -26,6 +26,13 @@ nav {
     width: 100%;
 }
 
+.row .medium {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    min-height: 1px;
+}
+
 nav .nav-wrapper {
     position: relative;
     height: 100%;
@@ -122,4 +129,49 @@ li {
     color: #fafafa !important;
     font-size: 1.5em;
     background-color: rgba(0,0,0,0.7);
+}
+
+.flow-text {
+    font-size: 1.68em;
+}
+.center-align {
+    text-align: center;
+}
+.container .row {
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+.row {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 601px) {
+    .row .medium {
+        width: 33%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+}
+
+
+#contact {
+    clear: both;
+}
+
+#gallery {
+    clear: both;
+}
+#content {
+    clear: both;
+}
+
+footer {
+    background-color: seagreen;
+    min-height: 100px;
+}
+
+main {
+    flex: 1 0 auto;
+    clear: both;
 }
