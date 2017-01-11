@@ -101,3 +101,25 @@ li {
     display: list-item;
     text-align: -webkit-match-parent;
 }
+
+.intro {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-bottom: 50px;
+    background: url(background.jpg) center center fixed;
+}
+.intro h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fafafa !important;
+    font-size: 4.2rem;
+    line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+}
+.intro-text {
+    font-weight: 900;
+    color: #fafafa !important;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0,0.7);
+} 
