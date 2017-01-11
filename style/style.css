@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1280px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html{
+  font-size: 16px;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: normal;
+  color: rgba(0,0,0,0.87);
+}
+nav {
+    background-color: seagreen !important;
+    color: #fff;
+    height: 56px;
+    line-height: 56px;
+    width: 100%;
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.lime.lighten-2 {
+    background-color: seagreen !important;
+}
+.lime {
+    background-color: seagreen !important;
+}
+
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+}
+.right {
+    float: right !important;
+}
+
+nav ul {
+    margin: 0;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+nav ul li {
+    transition: background-color .3s;
+    float: left;
+    padding: 0;
+}
+ul li {
+    list-style-type: none;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+nav ul a {
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fff;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+nav ul a:hover {
+    color: #039be5;
+}
+a {
+    text-decoration: none;
+}
+a {
+    color: #039be5;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    margin-bottom: 50px;
+    background: url(background.jpg) center center fixed;
+}
+.intro h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fafafa !important;
+    font-size: 4.2rem;
+    line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+}
+.intro-text {
+    font-weight: 900;
+    color: #fafafa !important;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0,0.7);
+} 
